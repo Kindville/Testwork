@@ -83,7 +83,6 @@
   content: "";
   top: 100%;
   left: 50%;
-  width: 100%;
   transform: translate(-50%, -50%);
   background-image: url(../images/ice-cream1.jpg);
   background-repeat: no-repeat;
