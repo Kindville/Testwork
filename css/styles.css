@@ -35,7 +35,6 @@
   line-height: 1.16;
   text-align: center;
   text-transform: uppercase;
-
   color: #ffa5ba;
 }
 .product-title {
@@ -49,7 +48,6 @@
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-
   color: #d41443;
 }
 
@@ -65,7 +63,6 @@
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 .product-name::after {
@@ -98,7 +95,6 @@
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-
   color: #ffffff;
 }
 /* .product-card {
