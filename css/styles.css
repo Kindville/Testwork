@@ -56,7 +56,6 @@
 .product-name {
   position: relative;
   color: white;
-  border-radius: 50%;
 
   margin-top: 161px;
   margin-bottom: 66px;
@@ -69,12 +68,12 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
 
-  color: #140f0f;
+  color: #ffffff;
 }
 .product-name:before {
   content: "•••";
   position: absolute;
-  top: 100%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 15px;
@@ -91,63 +90,32 @@
   text-align: center;
   letter-spacing: 0.04em;
 
-  color: #6d4141;
+  color: #ffffff;
 }
 .product-card {
   position: relative;
+  display: inline-block;
+
   width: 100%;
   text-align: center;
   margin: 0;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 .product-content {
   position: absolute;
-  width: 100%;
+  height: 100%;
   top: 50%;
   left: 50%;
+  padding: 0 40px;
   transform: translate(-50%, -50%);
 }
-.product-img {
-  margin-bottom: 16px;
-}
-/* .product-ice {
-  text-align: center;
-  margin: 0;
-  margin-bottom: 16px;
 
-  width: 280px;
-  height: 485px;
-  background: #ffb8ca;
-  border-radius: 24px;
-}
-.product-coffee {
-  text-align: center;
-  margin: 0;
-  margin-bottom: 16px;
-  width: 280px;
-  height: 485px;
-  background: #f0d1a5;
-  border-radius: 24px;
-}
-.product-milkshake {
-  text-align: center;
-  margin: 0;
-  margin-bottom: 16px;
-
-  width: 280px;
-  height: 485px;
-  background: #c2e297;
-  border-radius: 24px;
-} */
 .product-button {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   border: none;
   outline: none;
-  background-color: #181414;
+  background-color: #ffffff;
 }
 .icon-arrow {
   fill: black;
