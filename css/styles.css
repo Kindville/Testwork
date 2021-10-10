@@ -1,8 +1,3 @@
-.products {
-  padding-top: 121px;
-  padding-bottom: 98px;
-  background-color: #ffffff;
-}
 .container {
   width: 100%;
   padding-left: 20px;
@@ -33,6 +28,12 @@ h4 {
 .list {
   list-style: none;
 }
+
+.products {
+  padding-top: 121px;
+  padding-bottom: 98px;
+  background-color: #ffffff;
+}
 .product-subtitle {
   margin-bottom: 15px;
   font-family: Titan One;
@@ -56,10 +57,14 @@ h4 {
   text-transform: uppercase;
   color: #d41443;
 }
+.product-card {
+  margin: 0;
+  padding: 0;
+}
 
 .product-name {
   position: relative;
-  width: 100%;
+  min-width: 100%;
   margin-top: 161px;
   margin-bottom: 66px;
   font-family: Titan One;
@@ -75,36 +80,47 @@ h4 {
 .product-name::after {
   position: absolute;
   content: "•••";
-  top: 100%;
+  top: 50px;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 15px;
   letter-spacing: 4px;
-  margin-top: 30px;
 }
 .product-ice::before {
   position: absolute;
   content: "";
-  top: 60%;
-  left: 45%;
-  width: 249px;
+  /* top: 50px;
+  left: 50%; */
+  width: 100%;
   height: 252px;
-  margin-bottom: 22px;
   transform: translate(-50%, -50%);
   background-image: url(../images/ice-cream1.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 .product-coffee::before {
   position: absolute;
   content: "";
-  top: 150%;
-  left: 45%;
-  width: 249px;
+  /* top: 50px;
+  left: 50px; */
+  width: 100%;
   height: 252px;
-  margin-bottom: 22px;
   transform: translate(-50%, -50%);
   background-image: url(../images/coffee1.png);
   background-repeat: no-repeat;
+  background-position: center;
+}
+.product-milkshake::before {
+  position: absolute;
+  content: "";
+  /* top: 50px;
+  left: 50px; */
+  width: 100%;
+  height: 252px;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/milk1.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .product-description {
   margin-bottom: 30px;
@@ -121,9 +137,7 @@ h4 {
 
 .product-ice {
   display: inline-block;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 16px;
+  margin-bottom: 144px;
   text-align: center;
   width: 280px;
   height: 485px;
@@ -135,7 +149,7 @@ h4 {
   display: inline-block;
   margin: 0;
   padding: 0;
-  margin-bottom: 16px;
+  margin-bottom: 144px;
   text-align: center;
   width: 280px;
   height: 485px;
@@ -145,9 +159,6 @@ h4 {
 
 .product-milkshake {
   display: inline-block;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 16px;
   text-align: center;
   width: 280px;
   height: 485px;
